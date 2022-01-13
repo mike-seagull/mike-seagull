@@ -12,3 +12,5 @@ params:
   socialIcons:
     - name: github
       url: https://github.com/mike-seagull
+    - name: linkedin
+      url: https://www.linkedin.com/in/mike-hollister

@@ -4,5 +4,5 @@ github:
     branches: true
 image: ghcr.io/mike-seagull/gitpod-base:master
 tasks:
-  - init: |
-      brew install hugo
+  - name: install hugo
+    command: brew install hugo

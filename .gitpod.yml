@@ -1,8 +1,8 @@
 github:
   prebuilds:
-    master: true
+    master: false
     branches: true
-image: ghcr.io/mike-seagull/gitpod-images:tailnet
+image: ghcr.io/mike-seagull/gitpod-images:tailscale
 tasks:
   - init: git submodule init && git submodule update
     command: git submodule update

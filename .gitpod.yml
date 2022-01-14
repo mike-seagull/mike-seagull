@@ -5,9 +5,9 @@ github:
 image: ghcr.io/mike-seagull/gitpod-images:tailscale
 tasks:
   - init: git submodule init && git submodule update
-    command: git submodule update
+    command: git submodule update; exit
   - name: install hugo
-    command: brew install hugo
+    command: brew install hugo; exit
   # run tailscale
   - name: tailscaled
     command: |

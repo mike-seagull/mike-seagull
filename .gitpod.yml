@@ -4,5 +4,7 @@ github:
     branches: true
 image: ghcr.io/mike-seagull/gitpod-base:master
 tasks:
+  - init: git submodule init && git submodule update
+    command: git submodule update
   - name: install hugo
     command: brew install hugo

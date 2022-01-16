@@ -1,5 +1,5 @@
 github:
   prebuilds:
-    master: true
+    master: false
     branches: true
 image: ghcr.io/mike-seagull/gitpod-base:master

@@ -26,3 +26,5 @@ tasks:
         # store the tailscale state into gitpod user
         gp env TAILSCALE_STATE_MYPROJECT="$(sudo cat /var/lib/tailscale/tailscaled.state)"
       fi
+  - name: dev server
+    command: hugo server --bind 0.0.0.0 --buildDrafts

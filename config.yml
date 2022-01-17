@@ -2,7 +2,12 @@ baseURL: "https://blog.hllstr.com"
 languageCode: "en-us"
 # title: "mike-seagull blog"
 theme: "PaperMod"
+permalinks:
+  posts: /:year/:month/:day
 params:
+  hidemeta: true
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
   defaultTheme: auto
   disableThemeToggle: true
   env: production

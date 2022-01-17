@@ -12,7 +12,6 @@ keywords:
 summary: Tutorial for build containers using Github Actions and deploying them GitHub Container Registry.
 title: "Build and deploy containers to ghcr.io"
 date: 2022-01-17T04:42:40Z
-draft: true
 ---
 I've been using [Gitpod.io](https://gitpod.io) as my main coding IDE. The browser-based IDE has a [feature for using a custom docker image](https://www.gitpod.io/docs/config-docker) as a base for your development space.
 
